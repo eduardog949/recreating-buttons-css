@@ -51,7 +51,7 @@
     color: black;
     border: none;
     height: 32px;
-    width: 170px;
+    width: 130px;
     border-radius: 16px;
     font-size: 13px;
     cursor: pointer;
@@ -140,5 +140,23 @@
     cursor: pointer;
 }
 
+.back-link{
+    color: rgb(78, 78, 173);
+}
 
 
+.price-inventory{
+    color: green;
+}
+
+.buy-button{
+    background-color: rgb(255, 183, 0);
+    color: black;
+    border: none;
+    height: 32px;
+    width: 130px;
+    border-radius: 16px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 12px;
+}
