@@ -1,0 +1,144 @@
+.subscribe-button {
+    background-color: rgb(207, 58, 58);
+    color: white;
+    border: none;
+    height: 36px;
+    width:105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.join-button{
+    background-color: white ;
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(41, 118, 211);
+    height: 36px;
+    width: 62px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.tweet-button{
+    background-color: rgb(2, 137, 255);
+    color: white;
+    border: none;
+    height:36px;
+    width: 74px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.request-button{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 32px;
+    width: 100px;
+    font-size: 12px;
+    margin-top: 20px;
+    cursor: pointer
+
+}
+
+.add-cart-button{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border: none;
+    height: 32px;
+    width: 170px;
+    border-radius: 16px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.sign-up-button{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border:none;
+    height: 30px;
+    width: 90px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 18px;
+    
+}
+
+/* adding faded text to sign up text only */
+.faded-text {
+    opacity: 0.95;
+}
+
+.get-started-button{
+    background-color: rgb(121, 82, 1179);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 90px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+/* adding faded text to get started text only */
+.faded-text-start{
+    opacity: 0.98;
+}
+
+.download-button{
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-style: solid;
+    border-color: rgb(108, 117, 125);
+    border-width: 1.2px;
+    height: 30px;
+    width: 90px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+.apply-button{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 198px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.faded-save-apply{
+    opacity: 0.95;
+}
+
+.save-button{
+    background-color: white;
+    color:rgb(10, 102, 194);
+    border-color: rgb(10, 102, 194);
+    border-style: solid;
+    border-width: 1px;
+    height: 30px;
+    width: 68px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+
