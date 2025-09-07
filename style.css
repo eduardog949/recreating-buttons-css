@@ -7,7 +7,16 @@
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
+    transition: opacity 0.15s;
 }
+
+.subscribe-button:hover {
+    opacity: 0.8;
+ }
+
+.subscribe-button:active {
+    opacity: 0.5;
+   }
 
 .join-button{
     background-color: white ;
@@ -19,9 +28,20 @@
     width: 62px;
     border-radius: 2px;
     cursor: pointer;
+    transition: background-color 0.15s,
+    color 0.15s;
 }
 
-.tweet-button{
+.join-button:hover {
+    background-color: rgb(41, 118, 211);
+    color: white;
+}
+
+.join-button:active {
+    opacity: 0.7;
+}
+
+.tweet-button {
     background-color: rgb(2, 137, 255);
     color: white;
     border: none;
@@ -32,9 +52,19 @@
     font-size: 15px;
     cursor: pointer;
     margin-left: 8px;
+    transition: box-shadow 0.15s,;
+   
 }
 
-.request-button{
+.tweet-button:hover {
+     box-shadow:5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.tweet-button:active {
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.request-button {
     background-color: black;
     color: white;
     border: none;
@@ -42,11 +72,19 @@
     width: 100px;
     font-size: 12px;
     margin-top: 20px;
-    cursor: pointer
-
+    cursor: pointer;
+    transition: opacity 0.15s;
 }
 
-.add-cart-button{
+.request-button:hover {
+    opacity: 0.8;
+}
+
+.request-button:active {
+    opacity: 0.7;
+}
+
+.add-cart-button {
     background-color: rgb(255, 216, 20);
     color: black;
     border: none;
@@ -56,9 +94,20 @@
     font-size: 13px;
     cursor: pointer;
     margin-left: 12px;
+    transition: background-color 0.15s,
+    opacity 0.15s;
 }
 
-.sign-up-button{
+.add-cart-button:hover {
+    background-color: rgba(239, 202, 20, 0.85); 
+}
+
+.add-cart-button:active {
+    opacity: 0.7; 
+
+}
+
+.sign-up-button {
     background-color: rgb(46, 164, 79);
     color: white;
     border:none;
@@ -68,15 +117,24 @@
     font-weight: bold;
     cursor: pointer;
     margin-top: 18px;
-    
-}
+    transition: box-shadow 0.15s;
+     }
+
+    .sign-up-button:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+
+    }
+
+    .sign-up-button:active {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
 
 /* adding faded text to sign up text only */
 .faded-text {
     opacity: 0.95;
 }
 
-.get-started-button{
+.get-started-button {
     background-color: rgb(121, 82, 1179);
     color: white;
     border: none;
@@ -87,14 +145,24 @@
     font-size: 12px;
     cursor: pointer;
     margin-left: 8px;
+    transition: background-color 0.15s,
+    opacity 0.15s;
 }
+
+.get-started-button:hover {
+    background-color: rgb(121, 82, 190);
+}
+
+.get-started-button:active {
+    opacity: 0.7;
+    }
 
 /* adding faded text to get started text only */
 .faded-text-start{
     opacity: 0.98;
 }
 
-.download-button{
+.download-button {
     background-color: white;
     color: rgb(108, 117, 125);
     border-style: solid;
@@ -107,8 +175,18 @@
     font-size: 12px;
     cursor: pointer;
     margin-left: 4px;
+    transition: background-color 0.15s,
+    color 0.15s;
 }
 
+.download-button:hover {
+    background-color: rgb(108, 117, 125); ;
+    color: white;
+}
+
+.download-button:active {
+    opacity: 0.7;
+}
 .apply-button{
     background-color: rgb(10, 102, 194);
     color: white;
@@ -120,6 +198,15 @@
     font-size: 13px;
     cursor: pointer;
     margin-top: 20px;
+    transition: background-color 0.15s,
+    opacity 0.15s;
+}
+.apply-button:hover {
+    background-color: rgb(9, 91, 173);
+}
+
+.apply-button:active {
+    opacity: 0.8;
 }
 
 .faded-save-apply{
@@ -138,11 +225,26 @@
     font-weight: bold;
     font-size: 13px;
     cursor: pointer;
+    transition: border-width 0.05s;
+}
+
+.save-button:hover {
+    border-width: 2px;
+}
+
+.save-button:active {
+    border-width: 1px;
 }
 
 .back-link{
     color: rgb(78, 78, 173);
 }
+
+.back-link:hover {
+     color: rgb(196, 16, 16);
+}
+
+
 
 
 .price-inventory{
@@ -159,4 +261,14 @@
     font-size: 13px;
     cursor: pointer;
     margin-left: 12px;
+    transition: background-color 0.15s,
+    opacity 0.15s;
+}
+
+.buy-button:hover {
+    background-color: rgb(227, 169, 22);
+}
+
+.buy-button:active {
+    opacity: 0.7;
 }
