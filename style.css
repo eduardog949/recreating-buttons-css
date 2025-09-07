@@ -2,10 +2,9 @@
     background-color: rgb(207, 58, 58);
     color: white;
     border: none;
-    height: 36px;
-    width:105px;
     border-radius: 2px;
     cursor: pointer;
+    padding: 10px 16px;
     margin-right: 8px;
     transition: opacity 0.15s;
 }
@@ -24,10 +23,9 @@
     border-style: solid;
     border-width: 1px;
     color: rgb(41, 118, 211);
-    height: 36px;
-    width: 62px;
     border-radius: 2px;
     cursor: pointer;
+    padding: 9px 16px;
     transition: background-color 0.15s,
     color 0.15s;
 }
@@ -45,13 +43,12 @@
     background-color: rgb(2, 137, 255);
     color: white;
     border: none;
-    height:36px;
-    width: 74px;
     border-radius: 18px;
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
     margin-left: 8px;
+    padding: 9px 16px;
     transition: box-shadow 0.15s,;
    
 }
@@ -68,8 +65,7 @@
     background-color: black;
     color: white;
     border: none;
-    height: 32px;
-    width: 100px;
+    padding:  8px 16px;
     font-size: 12px;
     margin-top: 20px;
     cursor: pointer;
@@ -88,12 +84,11 @@
     background-color: rgb(255, 216, 20);
     color: black;
     border: none;
-    height: 32px;
-    width: 130px;
     border-radius: 16px;
     font-size: 13px;
     cursor: pointer;
     margin-left: 12px;
+    padding: 8px 34px;
     transition: background-color 0.15s,
     opacity 0.15s;
 }
@@ -111,8 +106,7 @@
     background-color: rgb(46, 164, 79);
     color: white;
     border:none;
-    height: 30px;
-    width: 90px;
+    padding: 7px 16px;
     border-radius: 4px;
     font-weight: bold;
     cursor: pointer;
@@ -138,8 +132,7 @@
     background-color: rgb(121, 82, 1179);
     color: white;
     border: none;
-    height: 30px;
-    width: 90px;
+    padding: 9px 12px;
     border-radius: 2px;
     font-weight: bold;
     font-size: 12px;
@@ -168,8 +161,7 @@
     border-style: solid;
     border-color: rgb(108, 117, 125);
     border-width: 1.2px;
-    height: 30px;
-    width: 90px;
+    padding: 8px 16px;
     border-radius: 2px;
     font-weight: bold;
     font-size: 12px;
@@ -191,8 +183,7 @@
     background-color: rgb(10, 102, 194);
     color: white;
     border: none;
-    height: 30px;
-    width: 198px;
+    padding: 8px 20px;
     border-radius: 15px;
     font-weight: bold;
     font-size: 13px;
@@ -219,8 +210,7 @@
     border-color: rgb(10, 102, 194);
     border-style: solid;
     border-width: 1px;
-    height: 30px;
-    width: 68px;
+    padding: 7px 18px;
     border-radius: 15px;
     font-weight: bold;
     font-size: 13px;
@@ -255,8 +245,7 @@
     background-color: rgb(255, 183, 0);
     color: black;
     border: none;
-    height: 32px;
-    width: 130px;
+    padding: 8px 34px;
     border-radius: 16px;
     font-size: 13px;
     cursor: pointer;
